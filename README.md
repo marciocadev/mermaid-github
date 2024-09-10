@@ -8,6 +8,6 @@
       System(app, "Aplicativo de consolidação", "Aplicativo para cadastramento de visitante")
       System(backend, "Backend de consolidação", "Backend que consolida o visitante no sistema")
 
-      BiRel(user, app, "usa")
+      Rel(user, app, "usa")
       
 ```
